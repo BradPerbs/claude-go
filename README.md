@@ -40,17 +40,19 @@ func main() {
 	fmt.Println(response)
 }
 
+```
+
 
 This example creates a new Client instance with your API key and sends a prompt to Claude. The SendPrompt method returns the response from Claude as a string.
 Configuration
 You can configure the behavior of the client by passing optional configuration functions to the NewClient function:
 
-
+```
 client := claude.NewClient("your-api-key",
     claude.WithBaseURL("https://api.example.com/v1"), // Set a custom base URL
     claude.WithHTTPClient(&http.Client{Timeout: 10 * time.Second}), // Set a custom HTTP client
 )
-
+```
 
 The available configuration functions are:
 
