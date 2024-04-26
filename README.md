@@ -7,9 +7,9 @@ This is a Go wrapper for the [Claude API](https://www.anthropic.com/product) by 
 To use this wrapper, you need to have Go installed on your system. You can install it by following the instructions on the [official Go website](https://golang.org/doc/install).
 
 Once you have Go installed, you can install the wrapper by running the following command:
-
+```
 go get github.com/BradPerbs/claude-go
-
+```
 
 ## Usage
 
